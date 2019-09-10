@@ -1,2 +1,2 @@
-# portfolio
-javascript projects
+# Portfolio
+Javascript projects
