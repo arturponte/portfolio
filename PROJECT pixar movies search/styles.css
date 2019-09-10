@@ -1,0 +1,69 @@
+
+body {
+    background: #86add8;
+}
+
+.container {
+    max-width: 630px;
+}
+
+header img {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+input[type=text], input[type=text]:focus {
+    color: #1E88E5;
+    border: none;
+    background: white;
+    max-width: 590px;
+    background-image: url(images/search.png);
+    background-repeat: no-repeat;
+    background-position: 99% 5px;
+	padding: 6px 35px 6px 12px;
+}
+
+.card {
+    float: left;
+    margin: 1%;
+    margin-bottom: 2%;
+}
+
+.btn {
+    background-color: #1e88e5;
+}
+
+.clear {
+    clear: both;
+}
+
+/*
+.card:nth-child(odd) {
+    margin-right: 4%;
+}
+*/
+
+div .allCards {
+    display: block;
+    margin-bottom: 40px;
+}
+
+footer {
+    max-width: 590px;
+    color: white;
+    background-color: #1565C0;
+    border-radius: .25rem;
+    padding: 3px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.filtered {
+    display: none !important;
+}
+
+.displayMessage {
+    display: none;
+}

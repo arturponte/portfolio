@@ -1,0 +1,115 @@
+
+body {
+    background: #eee;
+}
+
+.container {
+    max-width: 768px;
+}
+
+.article {
+    background-color: white;
+    padding: 20px;
+}
+
+.article h1 {
+    margin-bottom: 15px;
+}
+
+.article img {
+    width: 100%;
+}
+
+.article ol {
+    margin-top: 16px;
+    padding-left: 20px;
+}
+
+.CommentsArea {
+    max-width: 768px;
+    background-color: white;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: .25rem;
+    margin-bottom: 30px;
+}
+
+.CommentsArea h5 {
+    display: inline;
+    margin-left: 10px;
+}
+
+.CommentsArea p {
+    margin-top: 8px;
+}
+
+.CommentsArea a {
+    margin-left: 20px;
+    color: #BCAAA4;
+}
+
+.clear {
+    clear: both;
+}
+
+.postArea {
+    max-width: 768px;
+    background-color: white;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: .25rem;
+    margin-bottom: 30px;
+}
+
+.postArea h2 {
+    text-align: center;
+}
+
+.postArea input[type=text], input[type=text]:focus {
+    color: #1E88E5;
+    background-color: #eee;
+    margin-top: 20px !important;
+}
+
+.postArea textarea, textarea:focus {
+    margin-top: 20px;
+    width: 100%;
+    color: #1E88E5;
+    background-color: #eee;
+    border-radius: .25rem;
+    border: 1px solid #ced4da;
+    padding: 10px;
+}
+
+.postArea input[type=submit], input[type=submit]:focus {
+    width: 100%;
+    border-radius: .25rem;
+    color: #000;
+    background-color: #D7CCC8;
+    margin-top: 20px !important;
+    border: 1px solid silver;
+}
+
+em {
+    font-size: 14px !important;
+}
+
+.genderArea {
+    margin-top: 20px !important;
+}
+
+.extraText {
+    display: none;
+}
+
+.moreTextButton {
+    display: block;
+    color: orangered;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.moreTextButton:hover {
+    text-decoration: underline;
+}
+

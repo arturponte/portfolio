@@ -1,0 +1,42 @@
+
+div.intro div.container h2 {
+    font-size: 50px;
+    margin: 30px;
+}
+
+div.intro div.container p {
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+div.quiz {
+    background-image: url(images/microscope1.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+div.quiz div.container h2 {
+    font-size: 30px;
+}
+
+.success {
+    background-color: limegreen;
+    --padding: 5px;
+}
+
+.error {
+    background-color: crimson;
+    --padding: 5px;
+}
+
+form .lead {
+    padding: 5px;
+}
+
+.bg-primary {
+    background-color: #2196f3 !important;
+}
+
+.text-primary {
+    color: #2196f3 !important;
+}
