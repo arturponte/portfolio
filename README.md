@@ -1,2 +1,2 @@
 # Portfolio
-Javascript projects
+Front-end web development projects
