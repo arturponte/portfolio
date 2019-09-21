@@ -1,0 +1,864 @@
+/* Breakpoint laptops 1200px para baixo, até 992px */
+@media only screen and (max-width: 1200px) {
+	
+	#homeSection {
+		height: auto;
+	}
+	
+	.hideElement {
+		display: none;
+	}
+	
+	#menuHomePage img {
+		transition: none;
+		height: 50%;
+	}
+	
+	#menuHomePage img:hover {
+		opacity: 1;
+	}
+	
+	#menuHomePage ul li {
+		padding-right: 0px;
+		padding-left: 11px;
+		transition: none;
+	}
+	
+	#menuHomePage ul li span {
+		padding-right: 10px;
+	}
+	#menuHomePage ul li:hover {
+		background-color: white;
+	}
+	
+	.homepageImageDevices img {
+		width: 100%;
+	}
+	
+	#homepageImage {
+		--width: 100%;
+		height: auto;
+		overflow: hidden;
+	}
+	
+	#homepageImage .homepageImageText {
+		display: none;
+	}
+	
+	#homepageImage:hover img {
+		transition: none;
+		opacity: 1;
+	}
+	
+	.homepageImageDesktop {
+		display: none;
+	}
+	
+	#messageHomePage h1 {
+		margin-top: 35px;
+		font-size: 1.5em;
+	}
+	
+	#messageHomePage .triangleHome {
+		animation: none;
+		margin-top: 11px;
+		margin-bottom: 25px;
+	}
+	
+	/*
+	#messageHomePage .triangleHome {
+		animation: none;
+		margin-bottom: -8px;
+	}
+	*/
+	
+	#trendsSection {
+		height: 680px;
+	}
+	
+	#trendsSection h2 {
+		font-family: 'Montserrat', sans-serif;
+		margin-top: 0px;
+		color: white;
+		font-size: 1.4em;
+		font-weight: bold;
+		padding-top: 10px;
+	}
+	
+	.trendCard1 {
+		width: 45%;
+		height: 403px;
+		transition: none;
+		margin-top: 25px;
+	}
+	
+	.trendCard1:hover {
+		margin-top: 25px;
+	}
+	
+	.trendCard2 {
+		width: 45%;
+		height: 403px;
+		transition: none;
+	}
+	
+	.trendCard2:hover {
+		margin-top: 25px;
+	}
+	
+	/* features section */
+	
+	.featCard1 .star {
+		transition: none;
+		height: 68px;
+		padding: 20px;
+	}
+
+	.featCard1 .seeMore {
+		transition: none;
+		height: 68px;
+	}
+	
+	.featCard2 .star {
+		transition: none;
+		height: 68px;
+		padding: 20px;
+	}
+
+	.featCard2 .seeMore {
+		transition: none;
+		height: 68px;
+	}
+	
+	.featCard3 .star {
+		transition: none;
+		height: 68px;
+		padding: 20px;
+	}
+
+	.featCard3 .seeMore {
+		transition: none;
+		height: 68px;
+	}
+	
+	.featCard4 .star {
+		transition: none;
+		height: 68px;
+		padding: 20px;
+	}
+
+	.featCard4 .seeMore {
+		transition: none;
+		height: 68px;
+	}
+
+	#featuresSection .button {
+		margin-top: 0px;
+	}
+
+	#newsletterSection .submitStyle {
+		background-position: 75% 50%; /*3% right , 50% top*/
+	}
+
+	#footer ul {
+		border-left: 0px;
+		height: auto;
+	}
+
+}
+
+/* Tablets 992px para baixo até 768 */
+@media only screen and (max-width: 992px) {
+	
+	#homeSection {
+		height: auto;
+	}
+	
+	#headerHomePage {
+		display: none;
+	}
+	
+	.hideElement {
+		display: none;
+	}
+	
+	#menuHomePage img {
+		transition: none;
+		height: 45px;
+		margin-top: 4px;
+	}
+
+	#menuHomePage ul li {
+		padding-right: 0px;
+		padding-left: 11px;
+	}
+	
+	#menuHomePage ul li span {
+		padding-right: 0px;
+	}
+	
+	#menuHomePage ul li:hover {
+		background-color: white;
+	}
+	
+	.homepageImageDevices img {
+		width: 100%;
+	}
+	
+	#homepageImage {
+		--width: 100%;
+		height: 100%;
+		overflow: hidden;
+	}
+	
+	#messageHomePage h1 {
+		font-size: 1.2em;
+		font-weight: normal;
+		margin-top: 15px;
+	}
+	
+	#messageHomePage .triangleHome {
+		margin-bottom: 8px;
+		padding-bottom: 5px;
+	}
+	
+	#trendsSection {
+		height: 575px;
+	}
+	
+	#trendsSection h2 {
+		padding-top: 0px;
+		text-align: center;
+	}
+
+	#trendsSection div div h2 {
+		padding-top: 0px;
+	}
+	
+	#trendsSection h3 {
+		text-align: center;
+	}
+	
+	.trendCard1 {
+		width: 48%;
+		height: 375px;
+	}
+	
+	.trendCard2 {
+		width: 48%;
+		height: 375px;
+	}
+	
+	#featuresSection {
+		height: 930px;
+	}
+	
+	#featuresSection h2 {
+		padding-top: 30px;
+		text-align: center;
+	}
+	
+	#featuresSection h3 {
+		text-align: center;
+	}
+	
+	.featCard1 {
+		width: 48%;
+		height: 365px;
+	}
+	
+	.featCard1 .star {
+		color: #3271A5;
+	}
+	
+	.featCard1 .seeMore {
+		background-color: #3271A5;
+	}
+	
+	.featCard2 {
+		width: 48%;
+		height: 365px;
+	}
+	
+	.featCard2 .star {
+		color: #3271A5;
+	}
+	
+	.featCard2 .seeMore {
+		background-color: #3271A5;
+	}
+	
+	.featCard3 {
+		width: 48%;
+		height: 365px;
+	}
+	
+	.featCard3 .star {
+		color: #3271A5;
+	}
+	
+	.featCard3 .seeMore {
+		background-color: #3271A5;
+	}
+	
+	.featCard4 {
+		width: 48%;
+		height: 365px;
+	}
+	
+	.featCard4 .star {
+		color: #3271A5;
+	}
+	
+	.featCard4 .seeMore {
+		background-color: #3271A5;
+	}
+
+	#featuresSection .button {
+		margin-top: 10px;
+	}
+
+	#promoSection {
+		height: 520px;
+	}
+
+	#promoSection h2 {
+		padding-top: 30px;
+		text-align: center;
+	}
+	
+	#promoSection h3 {
+		text-align: center;
+	}
+
+	#aboutSection {
+		height: 450px;
+	}
+
+	#aboutSection .card-title {
+		text-align: left;
+	}
+
+	#aboutSection h2 {
+		padding-top: 30px;
+		text-align: center;
+	}
+	
+	#aboutSection h3 {
+		text-align: center;
+	}
+	
+	#newsletterSection {
+		background-image: none;
+		height: 300px;
+	}
+
+	#newsletterSection form input[type="email"] {
+		width: 60%;
+	}
+
+	#newsletterSection form input[type='submit'] {
+		width: 20%;
+		margin-left: 2%;
+	}
+	
+}
+
+/* MOBILE 767px para baixo */
+
+@media only screen and (max-width: 767px) {
+	
+	#menuHomePage {
+		display: none;
+	}
+	
+	#menuMobile {
+		display: block;
+		height: 46px;
+		border-bottom: 1px solid #85ACD3;
+	}
+	
+	#menuMobile img {
+		float: left;
+		height: 43px;
+		margin-top: 2px;
+	}
+	
+	#menuMobile .iconsMobile div {
+		display: inline;
+		float: right;
+		padding-top: 9px;
+	}
+	
+	#menuMobile .iconsMobile svg {
+		margin-left: 15px;
+	}
+	
+	.menuMobile {
+		display: block;
+	}
+
+	.menuMobile .container {
+		overflow: hidden;
+	}
+	
+	.menuMobile ul {
+		--overflow: hidden;
+		margin-bottom: 0px;
+		height: 0px;
+		transition: 0.7s ease;
+		opacity: 0;
+		list-style: none;
+		font-family: 'Roboto Condensed', sans-serif;
+		padding: 0px;
+	}
+	
+	.menuMobile ul li {
+		height: 45px;
+		padding-top: 12px;
+		border-bottom: 1px solid #CCCCCC;
+	}
+	
+	.menuMobile ul li a {
+		color: #3271A5;
+	}
+	
+	.menuMobile ul li a:hover {
+		text-decoration: none;
+	}
+	
+	.menuMobile ul li a svg {
+		margin-right: 8px;
+	}
+	
+	.menuMobile ul.open {
+		opacity: 1;
+		height: 269px;
+	}
+	
+	.mobileSearch {
+		display: block;
+	}
+	
+	.mobileSearch form {
+		height: 0px;
+		transition: 0.7s ease;
+		opacity: 0;
+		text-align: center;
+	}
+	
+	.mobileSearch form input {
+		width: 80%;
+		height: 39px;
+		border: 1px solid #3271A5;
+		padding: 5px 25px 5px 10px;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+	
+	.mobileSearch form button {
+		width: 15%;
+		height: 39px;
+		background-color: #3271A5;
+		padding: 5px 25px 5px 10px;
+		font-family: 'Roboto Condensed', sans-serif;
+		border: none;
+		margin-left: 0%;
+	}
+	
+	.mobileSearch form button svg {
+		margin-left: 5px;
+	}
+	
+	.mobileSearch form.open {
+		opacity: 1;
+		height: 50px;
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+	
+	.mobileLogin {
+		display: block;
+	}
+	
+	.mobileLogin form {
+		opacity: 0;
+		transition: 0.7s ease;
+		height: 0px;
+	}
+	
+	.mobileLogin form.open {
+		opacity: 1;
+		height: 250px;
+		margin-top: 25px;
+		margin-bottom: 15px;
+	}
+	
+	.mobileLogin form input {
+		width: 100%;
+		margin: 5px 0;
+		border: 1px solid #3271A5;
+		box-sizing: border-box;
+		height: 39px;
+		font-family: 'Roboto Condensed', sans-serif;
+		padding: 5px 10px 5px 45px;
+	}
+	
+	.mobileLogin form input[type=password] {
+		margin-top: -10px;
+	}
+	
+	.mobileLogin form button {
+		width: 100%;
+		color: white;
+		background-color: #3271A5;
+		height: 38px;
+		font-family: 'Roboto Condensed', sans-serif;
+		border: none;
+		text-align: center;
+	}
+	
+	.mobileLogin form button svg {
+		margin-left: 10px;
+		margin-bottom: 4px;
+	}
+	
+	.mobileLogin form p {
+		font-family: 'Roboto Condensed', sans-serif;
+		text-align: center;
+		margin-top: 10px;
+		margin-bottom: 5px;
+		font-size: 1em;
+	}
+	
+	.mobileLogin form .loginFirstP {
+	  margin-top: 20px;
+	}
+	
+	.mobileLogin form p a {
+		text-decoration: underline;
+		color: #3271A5;
+	}
+
+	.mobileLogin .userIcon {
+		background-image: url('../imagens/username.png');
+		background-repeat: no-repeat;
+		background-position: 3% 50%; /*3% right , 50% top*/
+	}
+
+	.mobileLogin .passwordIcon {
+		background-image: url('../imagens/password.png');
+		background-repeat: no-repeat;
+		background-position: 3% 50%; /*3% right , 50% top*/
+	}
+	
+	
+	.homepageImageDevices img {
+		width: 100%;
+	}
+	
+	#homepageImage {
+		--width: 100%;
+		height: 100%;
+		overflow: hidden;
+	}
+	
+	#messageHomePage h1 {
+		margin-top: 35px;
+		font-size: 1.5em;
+	}
+	
+	#messageHomePage .triangleHome {
+		margin-top: 11px;
+		margin-bottom: 25px;
+	}
+	
+	#trendsSection {
+		height: auto;
+		padding-bottom: 30px;
+	}
+	
+	#trendsSection h2 {
+		padding-top: 30px;
+		text-align: center;
+		font-size: 1.2em;
+	}
+
+	#trendsSection div div h2 {
+		padding-top: 30px;
+	}
+	
+	#trendsSection h3 {
+		display: none;
+	}
+	
+	.trendCard1 {
+		width: 100%;
+		float: none;
+		height: auto;
+	}
+	
+	.trendCard2 {
+		width: 100%;
+		float: none;
+		height: auto;
+	}
+	
+	.trendCard1 h4 {
+		font-size: 1.0em;
+	}
+	
+	.trendCard2 h4 {
+		font-size: 1em;
+	}
+	
+	.trendCard1 .trendsButton span {
+		font-size: 0.74em;
+	}
+	
+	.trendCard2 .trendsButton span {
+		font-size: 0.74em;
+	}
+	
+	#featuresSection {
+		height: auto;
+		padding-bottom: 0px;
+	}
+	
+	#featuresSection div h2 {
+		padding-top: 40px;
+		font-size: 1.2em;
+	}
+	
+	#featuresSection h2 {
+		font-size: 1.2em;
+	}
+	
+	#featuresSection h3 {
+		display: none;
+	}
+	
+	.featCard1 {
+		width: 100%;
+		float: none;
+		height: auto;
+	}
+	
+	.featCard1 h4 {
+		margin-bottom: 18px;
+	}
+	
+	.featCard1 .star {
+		width: 48%;
+		margin-right: 2%;
+	}
+	
+	.featCard1 .seeMore {
+		font-size: 0.95em;
+	}
+
+	.featCard1 .seeMore svg {
+		margin-bottom: -3px;
+	}
+	
+	.featCard2 {
+		width: 100%;
+		float: none;
+		height: auto;
+		margin-top: 110px;
+	}
+	
+	.featCard2 h4 {
+		margin-bottom: 18px;
+	}
+	
+	.featCard2 .star {
+		width: 48%;
+		margin-right: 2%;
+	}
+	
+	.featCard2 .seeMore {
+		font-size: 0.95em;
+	}
+
+	.featCard2 .seeMore svg {
+		margin-bottom: -3px;
+	}
+	
+	.featCard3 {
+		width: 100%;
+		float: none;
+		height: auto;
+		margin-top: 110px;
+	}
+	
+	.featCard3 h4 {
+		margin-bottom: 18px;
+	}
+	
+	.featCard3 .star {
+		width: 48%;
+		margin-right: 2%;
+	}
+	
+	.featCard3 .seeMore {
+		font-size: 0.95em;
+	}
+
+	.featCard3 .seeMore svg {
+		margin-bottom: -3px;
+	}
+	
+	.featCard4 {
+		width: 100%;
+		float: none;
+		height: auto;
+		margin-top: 110px;
+	}
+	
+	.featCard4 h4 {
+		margin-bottom: 18px;
+	}
+	
+	.featCard4 .star {
+		width: 48%;
+		margin-right: 2%;
+	}
+	
+	.featCard4 .seeMore {
+		font-size: 0.95em;
+	}
+
+	.featCard4 .seeMore svg {
+		margin-bottom: -3px;
+	}
+
+	#featuresSection .button {
+		margin-top: 55px;
+		width: 285px;
+		font-size: 1em;
+		overflow: hidden;
+	}
+
+	#featuresSection svg {
+		padding-bottom: 5px;
+	}
+
+	#promoSection {
+		height: 690px;
+	}
+
+	#promoSection h2 {
+		font-size: 1.2em;
+	}
+
+	#promoSection div h2 {
+		padding-top: 50px;
+		font-size: 1.2em;
+	}
+	
+	#promoSection h3 {
+		display: none;
+	}
+
+	#aboutSection {
+		height: auto;
+		padding-bottom: 30px;
+	}
+
+	#aboutSection h2 {
+		font-size: 1.2em;
+	}
+
+	#aboutSection div h2 {
+		padding-top: 50px;
+		font-size: 1.2em;
+	}
+	
+	#aboutSection h3 {
+		display: none;
+	}
+
+	#aboutSection .card1 {
+		padding-right: 15px;
+	}
+
+	#aboutSection .card2 {
+		padding-left: 15px;
+		padding-right: 15px;
+		margin-top: 25px;
+	}
+
+	#aboutSection .card3 {
+		padding-left: 15px;
+		margin-top: 25px;
+	}
+
+	#newsletterSection h2 {
+		font-size: 1.2em;
+	}
+
+	#newsletterSection div h2 {
+		padding-top: 25px;
+		font-size: 1.2em;
+	}
+
+	#newsletterSection .submitStyle {
+		background-position: 85% 48%; /*3% right , 50% top*/
+	}
+
+	#footer {
+		margin-top: 50px;
+		margin-bottom: -56px; /* important */
+	}
+
+	#footer ul {
+		margin-bottom: 40px;
+		font-size: 0.9em;
+		border-bottom: 1px solid #CCCCCC;
+		padding-bottom: 30px;
+	}
+
+	#footer ul li {
+		margin-top: 15px;
+	}
+
+	#footer ul.first {
+		border-bottom: 1px solid #CCCCCC;
+	}
+
+@media only screen and (max-width: 480px) {
+
+	#promoSection {
+		height: 630px;
+	}
+
+	#aboutSection {
+		height: auto;
+	}
+
+	#newsletterSection form input[type="email"] {
+		width: 80%;
+	}
+
+	#newsletterSection form input[type='submit'] {
+		width: 15%;
+		margin-left: 2%;
+		color: transparent;
+	}
+
+	#newsletterSection .submitStyle {
+		background-position: 50% 50%; /*3% right , 50% top*/
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
